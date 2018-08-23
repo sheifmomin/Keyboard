@@ -102,7 +102,7 @@ KeyDelete.prototype.defaultClickAction = function() {
   Key.call(this, arguments);
 
   this.id = "mlkeyboard-tab";
-  this.default_value = "Cancel";
+  this.default_value = "Close";
 }
 
 KeyTab.prototype = new Key();
